@@ -22,9 +22,8 @@ for(week in listweek){
     randomimg <- sample(images, 2) #get a sample of 2
     # Print which week these images came from, show the image paths
     print(paste("we selected there images from",listweek))
-    print(randomimg)
-    
-  }  
-}
-}
+    print(randomimg) }
+  else {
+    print(paste("error not enough images in", listweek ))}
+}}
 
