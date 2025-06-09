@@ -9,6 +9,8 @@ print(listyear) #It should give me year 1 and 2
 for(year in listyear){
   listweek<- list.dirs(listyear, recursive = FALSE)
   print(listweek)#should give me a nice little path XD
+
+# goes through weeks and looks at images  
 for(week in listweek){
   images <- list.files(listweek, 
                        pattern="\\.(webp)$", #we can change this for any file type!!!
